@@ -29,6 +29,21 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(gif|png|avif|jpe?g)$/,
+        type: "asset/resource",
+        generator: {
+          filename: "[name][ext]",
+          publicPath: "assets/images/",
+          outputPath: "assets/images/",
+        },
+      },
+      {
+        test: /\.html$/,
+        use: [
+          'html-loader'
+        ]
+      }, 
+      {
         test: /\.css$/,
         use: [
           'style-loader',
