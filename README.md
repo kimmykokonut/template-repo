@@ -1,6 +1,6 @@
-# (Application Name)
+# Template Repository
 
-#### (Brief Description of Application)
+#### with __tests__, coverage, jest, .env, .gitignore, lint, cleanwebpack, htmlwebpack 
 
 #### By (Your Name Here)
 
